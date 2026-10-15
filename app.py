@@ -13,8 +13,8 @@ idade  =  st.number_input('Idade:')
 curso = st.text_input('Curso: ')
 
 
-st.image('/src')
-st.audio('/src')
+st.image('src/image.png')
+st.audio('src/audio.mp3')
 
 
 if nome and idade:
